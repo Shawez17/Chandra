@@ -5851,12 +5851,6 @@
 		(uuid "272e84fe-1db6-497f-a317-86c2eba50be3")
 	)
 	(junction
-		(at 148.59 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37af1098-45e8-4260-8519-9711f13b6ddd")
-	)
-	(junction
 		(at 186.69 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5867,6 +5861,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "414ce931-6690-49f5-afe2-86e2c73f8c59")
+	)
+	(junction
+		(at 148.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "482444ec-df27-4585-b93e-a970c82f8337")
 	)
 	(junction
 		(at 44.45 27.94)
@@ -6055,10 +6055,10 @@
 		(uuid "e6472cdd-7464-4094-bfe2-89a071e93145")
 	)
 	(junction
-		(at 148.59 99.06)
+		(at 148.59 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc601092-9f1b-4468-94a2-e7d6861edc77")
+		(uuid "f9769b07-8352-49ed-81a1-1863c32014d1")
 	)
 	(junction
 		(at 232.41 83.82)
@@ -6636,7 +6636,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 148.59 99.06)
+			(xy 148.59 71.12) (xy 148.59 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7216,7 +7216,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 85.09) (xy 148.59 88.9)
+			(xy 148.59 59.69) (xy 148.59 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7416,7 +7416,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 38.1) (xy 148.59 66.04)
+			(xy 148.59 38.1) (xy 148.59 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7676,7 +7676,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 73.66) (xy 148.59 77.47)
+			(xy 148.59 48.26) (xy 148.59 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9886,7 +9886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UC3842N:DIP794W45P254L959H508Q8"
+		(property "Footprint" "kaam25_footprints_symbol:DIP794W45P254L959H508Q8"
 			(at 97.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11667,7 +11667,7 @@
 		(dnp no)
 		(uuid "8bbe1493-eb43-465e-b51c-d797b4cb5bd6")
 		(property "Reference" "R_snub1"
-			(at 150.622 53.594 0)
+			(at 160.274 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11678,7 +11678,7 @@
 			)
 		)
 		(property "Value" "17"
-			(at 150.622 56.134 0)
+			(at 160.274 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12559,7 +12559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 92.71 0)
+		(at 148.59 67.31 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12570,7 +12570,7 @@
 		(dnp no)
 		(uuid "a7cc99fb-3922-4f54-8283-677c51c598de")
 		(property "Reference" "R_startUp3"
-			(at 154.94 92.71 90)
+			(at 154.94 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12580,7 +12580,7 @@
 			)
 		)
 		(property "Value" "68k"
-			(at 152.4 92.71 90)
+			(at 152.4 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12590,7 +12590,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
-			(at 146.812 92.71 90)
+			(at 146.812 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12601,7 +12601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 92.71 0)
+			(at 148.59 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,7 +12612,7 @@
 			)
 		)
 		(property "Description" "starup voltage flows through before aux winding start supplying it, HV resistor, 0.5W, 310Volts"
-			(at 148.59 92.71 0)
+			(at 148.59 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13520,7 +13520,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 81.28 0)
+		(at 148.59 55.88 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13531,7 +13531,7 @@
 		(dnp no)
 		(uuid "d2e80556-1294-45dd-8484-238523e98925")
 		(property "Reference" "R_startUp2"
-			(at 154.94 81.28 90)
+			(at 154.94 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13541,7 +13541,7 @@
 			)
 		)
 		(property "Value" "68k"
-			(at 152.4 81.28 90)
+			(at 152.4 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13551,7 +13551,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
-			(at 146.812 81.28 90)
+			(at 146.812 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13562,7 +13562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 81.28 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13573,7 +13573,7 @@
 			)
 		)
 		(property "Description" "starup voltage flows through before aux winding start supplying it, HV resistor,0.5W, 310V"
-			(at 148.59 81.28 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13681,7 +13681,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 69.85 0)
+		(at 148.59 44.45 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13692,7 +13692,7 @@
 		(dnp no)
 		(uuid "d5951eff-5928-4e48-9fa9-f7bf13c9a300")
 		(property "Reference" "R_startUp1"
-			(at 154.94 69.85 90)
+			(at 154.94 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13702,7 +13702,7 @@
 			)
 		)
 		(property "Value" "68k"
-			(at 152.4 69.85 90)
+			(at 152.4 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13712,7 +13712,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
-			(at 146.812 69.85 90)
+			(at 146.812 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13723,7 +13723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 69.85 0)
+			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13734,7 +13734,7 @@
 			)
 		)
 		(property "Description" "starup voltage flows through before aux winding start supplying it, HV resistor,0.5W, 310V"
-			(at 148.59 69.85 0)
+			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,6 +14599,88 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 156.21 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00a1922-321d-4f50-ab20-a2318f47f2ec")
+		(property "Reference" "D5"
+			(at 158.75 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 158.75 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_5KP_P12.70mm_Horizontal"
+			(at 156.21 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 156.21 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966d5465-0867-44ea-a555-0c8c7da5b8a2")
+		)
+		(pin "2"
+			(uuid "821a9e7a-24d5-489e-bacd-99bb3de8c1e1")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "D5")
 					(unit 1)
 				)
 			)
