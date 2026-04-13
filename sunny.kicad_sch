@@ -3450,380 +3450,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter:Choke_CommonMode_PulseElectronics_PH9455x826NL"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FL"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Choke_CommonMode_PulseElectronics_PH9455x826NL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Inductor_THT:L_CommonMode_PulseElectronics_PH9455xxx6NL_2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Common mode choke, 3A, 380VAC, 82mH, 150 mOhm, PH9455x826NL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "common-mode common mode choke powerline power line filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "L*CommonMode*PulseElectronics*PH9455xxx6NL?2*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Choke_CommonMode_PulseElectronics_PH9455x826NL_1_1"
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -2.032 1.5262)
-					(end -2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.032)
-					(mid -2.032 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid -1.016 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -1.016 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 0 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid 0 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 1.016 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 1.016 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.032)
-					(mid 2.032 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 2.032 -1.5262)
-					(end 2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Isolator:Optocoupler_DC_PhotoNPN_AKEC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5863,12 +5489,6 @@
 		(uuid "414ce931-6690-49f5-afe2-86e2c73f8c59")
 	)
 	(junction
-		(at 148.59 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "482444ec-df27-4585-b93e-a970c82f8337")
-	)
-	(junction
 		(at 44.45 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5951,6 +5571,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84dd79bb-0b8d-421f-8943-d6ada8e90641")
+	)
+	(junction
+		(at 148.59 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7d1279-f6a0-4577-9255-31ac67fa19fd")
 	)
 	(junction
 		(at 242.57 66.04)
@@ -6096,16 +5722,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 102.87) (xy 148.59 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0231a477-26fb-482c-b1d0-347eb6d09df2")
-	)
-	(wire
-		(pts
 			(xy 76.2 81.28) (xy 78.74 81.28)
 		)
 		(stroke
@@ -6113,6 +5729,16 @@
 			(type default)
 		)
 		(uuid "02e69c0b-312e-4439-b701-b6ae37f9fa41")
+	)
+	(wire
+		(pts
+			(xy 81.28 33.02) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ba6dd6-b901-41d0-9931-b34e45c3828f")
 	)
 	(wire
 		(pts
@@ -6266,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 27.94) (xy 81.28 27.94)
+			(xy 69.85 27.94) (xy 111.76 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6486,6 +6112,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 60.96) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40acc7c5-fad7-479a-b677-009d47b70b93")
+	)
+	(wire
+		(pts
 			(xy 113.03 81.28) (xy 115.57 81.28)
 		)
 		(stroke
@@ -6636,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 71.12) (xy 148.59 99.06)
+			(xy 148.59 83.82) (xy 148.59 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6663,6 +6299,16 @@
 			(type default)
 		)
 		(uuid "5bae1dce-8bb2-4fce-baa5-8d545627f0ce")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be5d186-bf62-4625-b765-bcf876dee8cf")
 	)
 	(wire
 		(pts
@@ -6703,16 +6349,6 @@
 			(type default)
 		)
 		(uuid "615d24c4-23d3-4fd9-8b0c-c3c66e75b35c")
-	)
-	(wire
-		(pts
-			(xy 148.59 101.6) (xy 148.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ba4cbc-1630-4fa8-9bee-85e1229abf05")
 	)
 	(wire
 		(pts
@@ -7136,16 +6772,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 161.29 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a4d28d8-107b-4f37-a9ca-b67fd03a3e98")
-	)
-	(wire
-		(pts
 			(xy 63.5 139.7) (xy 67.31 139.7)
 		)
 		(stroke
@@ -7216,7 +6842,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 59.69) (xy 148.59 63.5)
+			(xy 148.59 59.69) (xy 148.59 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7496,6 +7122,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 60.96) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d248f4ef-4963-4d72-ad35-9dcd5ebe3342")
+	)
+	(wire
+		(pts
 			(xy 167.64 68.58) (xy 167.64 58.42)
 		)
 		(stroke
@@ -7603,16 +7239,6 @@
 			(type default)
 		)
 		(uuid "e87bfd7a-457a-43e9-9c5e-8939630fbf06")
-	)
-	(wire
-		(pts
-			(xy 91.44 27.94) (xy 111.76 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb70d5e0-6a1f-4354-a6c9-0d6e22a37a02")
 	)
 	(wire
 		(pts
@@ -8118,7 +7744,7 @@
 	)
 	(global_label "V_startup"
 		(shape input)
-		(at 149.86 102.87 0)
+		(at 175.26 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8128,7 +7754,7 @@
 		)
 		(uuid "f17e0b65-2725-4be6-b769-ce5174434621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6141 102.87 0)
+			(at 187.0141 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8224,7 +7850,8 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 168.91 99.06 90)
+		(at 139.7 60.96 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8234,7 +7861,7 @@
 		(dnp no)
 		(uuid "0051439f-3305-499e-bf56-e1c7645900b7")
 		(property "Reference" "#PWR043"
-			(at 175.26 99.06 0)
+			(at 133.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8245,7 +7872,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 163.83 103.124 90)
+			(at 139.954 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8256,7 +7883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 99.06 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +7894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 99.06 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8278,7 +7905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 168.91 99.06 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9674,102 +9301,6 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:Choke_CommonMode_PulseElectronics_PH9455x826NL")
-		(at 86.36 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3eb0d1f6-8e58-4657-a783-18287bfd36c0")
-		(property "Reference" "FL1"
-			(at 86.36 34.798 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Choke_CommonMode_PulseElectronics_PH9455x826NL"
-			(at 86.106 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT:L_CommonMode_PulseElectronics_PH9455xxx6NL_2"
-			(at 86.36 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9455.105nl"
-			(at 86.36 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Common mode choke, 3A, 380VAC, 82mH, 150 mOhm, PH9455x826NL"
-			(at 86.36 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributer" ""
-			(at 86.36 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4e6ba61e-b004-4899-81bc-08d247517a71")
-		)
-		(pin "1"
-			(uuid "d23c0687-751b-46bc-b14a-c88537bd4531")
-		)
-		(pin "4"
-			(uuid "37cefc5d-524d-46c1-83db-4e874ba92559")
-		)
-		(pin "2"
-			(uuid "55ce209d-d5ba-4d0a-9d4c-abe518d812e6")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "FL1")
 					(unit 1)
 				)
 			)
@@ -12559,7 +12090,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 67.31 0)
+		(at 148.59 80.01 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12570,7 +12101,7 @@
 		(dnp no)
 		(uuid "a7cc99fb-3922-4f54-8283-677c51c598de")
 		(property "Reference" "R_startUp3"
-			(at 154.94 67.31 90)
+			(at 154.94 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12579,8 +12110,8 @@
 				)
 			)
 		)
-		(property "Value" "68k"
-			(at 152.4 67.31 90)
+		(property "Value" "1.26k"
+			(at 152.4 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12590,7 +12121,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
-			(at 146.812 67.31 90)
+			(at 146.812 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12601,7 +12132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 67.31 0)
+			(at 148.59 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,7 +12143,7 @@
 			)
 		)
 		(property "Description" "starup voltage flows through before aux winding start supplying it, HV resistor, 0.5W, 310Volts"
-			(at 148.59 67.31 0)
+			(at 148.59 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,6 +12245,84 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "C_vcc1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 148.59 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad4969a0-ec4a-4703-8e75-b7202593d135")
+		(property "Reference" "#PWR046"
+			(at 154.94 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 143.51 105.664 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb4f4602-ea45-4fc4-98d0-2a5b7f848406")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13358,7 +12967,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 165.1 99.06 90)
+		(at 144.78 60.96 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13368,7 +12978,7 @@
 		(dnp no)
 		(uuid "ca81fe06-9ac7-4229-aae8-b139208b02f7")
 		(property "Reference" "C_filter3"
-			(at 163.83 94.234 0)
+			(at 145.288 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13379,7 +12989,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 166.37 94.234 0)
+			(at 142.748 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13390,7 +13000,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 168.91 98.0948 0)
+			(at 140.97 59.9948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13401,7 +13011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 99.06 0)
+			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13412,7 +13022,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, 400V"
-			(at 165.1 99.06 0)
+			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13531,7 +13141,7 @@
 		(dnp no)
 		(uuid "d2e80556-1294-45dd-8484-238523e98925")
 		(property "Reference" "R_startUp2"
-			(at 154.94 55.88 90)
+			(at 153.67 55.118 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13540,8 +13150,8 @@
 				)
 			)
 		)
-		(property "Value" "68k"
-			(at 152.4 55.88 90)
+		(property "Value" "83k"
+			(at 151.13 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13692,7 +13302,7 @@
 		(dnp no)
 		(uuid "d5951eff-5928-4e48-9fa9-f7bf13c9a300")
 		(property "Reference" "R_startUp1"
-			(at 154.94 44.45 90)
+			(at 154.94 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13701,7 +13311,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "83k"
 			(at 152.4 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,88 +14209,6 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 156.21 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f00a1922-321d-4f50-ab20-a2318f47f2ec")
-		(property "Reference" "D5"
-			(at 158.75 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 158.75 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_5KP_P12.70mm_Horizontal"
-			(at 156.21 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 156.21 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "966d5465-0867-44ea-a555-0c8c7da5b8a2")
-		)
-		(pin "2"
-			(uuid "821a9e7a-24d5-489e-bacd-99bb3de8c1e1")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "D5")
 					(unit 1)
 				)
 			)
