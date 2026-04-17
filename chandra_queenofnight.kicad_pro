@@ -842,7 +842,7 @@
         "uuid": "fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af"
       }
     ],
-    "used_designators": "U2",
+    "used_designators": "#PWR10-11,C_decoup_3V2,U2,U12,X3-4",
     "variants": []
   },
   "sheets": [
