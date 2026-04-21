@@ -5573,6 +5573,12 @@
 		(uuid "84dd79bb-0b8d-421f-8943-d6ada8e90641")
 	)
 	(junction
+		(at 148.59 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d5cdfe5-d424-41eb-a05a-c4ca6ed03472")
+	)
+	(junction
 		(at 148.59 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5982,6 +5988,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c13ea2-1e9b-4c94-9f80-45a002da63c0")
+	)
+	(wire
+		(pts
 			(xy 26.67 71.12) (xy 30.48 71.12)
 		)
 		(stroke
@@ -6092,6 +6108,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 149.86) (xy 63.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3ac38c-fab3-41c7-9796-0c742c5f9426")
+	)
+	(wire
+		(pts
 			(xy 232.41 83.82) (xy 232.41 80.01)
 		)
 		(stroke
@@ -6112,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 60.96) (xy 148.59 60.96)
+			(xy 137.16 66.04) (xy 148.59 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6302,7 +6328,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 60.96) (xy 148.59 76.2)
+			(xy 148.59 60.96) (xy 148.59 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6842,6 +6868,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 66.04) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa245a81-61b9-45b9-8ab0-b26a9cac4dc4")
+	)
+	(wire
+		(pts
 			(xy 148.59 59.69) (xy 148.59 60.96)
 		)
 		(stroke
@@ -7119,16 +7155,6 @@
 			(type default)
 		)
 		(uuid "d22d4e4c-6ecc-4307-9a4c-899cd76e5c20")
-	)
-	(wire
-		(pts
-			(xy 107.95 60.96) (xy 106.68 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d248f4ef-4963-4d72-ad35-9dcd5ebe3342")
 	)
 	(wire
 		(pts
@@ -7754,17 +7780,17 @@
 	)
 	(global_label "V_startup"
 		(shape input)
-		(at 175.26 60.96 0)
+		(at 137.16 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f17e0b65-2725-4be6-b769-ce5174434621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.0141 60.96 0)
+			(at 125.4059 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7772,7 +7798,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -7801,9 +7827,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 106.68 60.96 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 115.57 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7811,9 +7836,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0051439f-3305-499e-bf56-e1c7645900b7")
-		(property "Reference" "#PWR043"
-			(at 100.33 60.96 0)
+		(uuid "068a4c1a-49c2-4ea6-bd8a-99248a304d48")
+		(property "Reference" "#PWR035"
+			(at 115.57 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7823,19 +7848,18 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 106.934 63.5 90)
+		(property "Value" "GND"
+			(at 118.364 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 60.96 0)
+			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7846,7 +7870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 60.96 0)
+			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7856,87 +7880,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 106.68 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f5d899d-87b9-4ac0-adc0-1f558485b50e")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 134.62 170.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ae64db0-0ae9-4c87-babf-7134ef6280c2")
-		(property "Reference" "#PWR038"
-			(at 128.27 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 130.81 170.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 134.62 170.18 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,12 +7892,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab4f5ee9-d92e-4829-bc28-58d13b1436c3")
+			(uuid "2fa3b714-1ddb-4742-84d8-376d60101068")
 		)
 		(instances
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR038")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8189,84 +8134,6 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "R_up1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 63.5 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13b079a0-e347-47ba-925d-1284bb925a1f")
-		(property "Reference" "#PWR045"
-			(at 63.5 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 65.786 146.812 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 63.5 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "198c644c-c240-4d59-bd8a-4435a6a8fa47")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8510,6 +8377,238 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b03247e-5f19-4b3c-a39d-4ad798cc4df7")
+		(property "Reference" "#PWR043"
+			(at 104.14 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67f09b1e-57ab-424c-abed-b4090ceab943")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d849be5-f379-4d5e-a677-63ee190d6ec2")
+		(property "Reference" "#PWR039"
+			(at 107.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc63ecfe-4cb2-497e-92b3-3e56b969bd55")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d978f05-426f-48e3-8dfa-2a9573815361")
+		(property "Reference" "#PWR042"
+			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.294 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da9a0337-ec85-4aaa-8bbc-f638829ac093")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9101,6 +9200,161 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 63.5 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "313c5a33-bdb4-4949-af2b-287178501ca0")
+		(property "Reference" "#PWR041"
+			(at 63.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.294 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0fc34e6-8f0b-4183-8581-bd17210be714")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3394f418-0bb5-40cd-af60-880fe3737adc")
+		(property "Reference" "#PWR046"
+			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e275c02c-6038-4fce-af9b-70be75b9ff0c")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 256.54 132.08 0)
 		(unit 1)
@@ -9648,6 +9902,83 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4868dbcb-44dd-4a0d-9174-a4a1f0b5ea02")
+		(property "Reference" "#PWR040"
+			(at 90.17 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.964 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd508bf5-7c47-4af3-89dc-4ed692579495")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10432,84 +10763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 115.57 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a204def-6593-4e17-acf3-3fa07834f96c")
-		(property "Reference" "#PWR039"
-			(at 115.57 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 115.57 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 115.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "545c4b62-210d-43a0-bd5e-58edf76b967a")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 72.39 270)
 		(unit 1)
@@ -11240,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "10k"
 			(at 84.074 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12133,7 +12386,7 @@
 		(dnp no)
 		(uuid "abf38e4a-d7c2-4ca9-8b19-940709da23c2")
 		(property "Reference" "C_vcc1"
-			(at 135.128 122.428 0)
+			(at 132.842 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12197,163 +12450,6 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "C_vcc1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 148.59 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad4969a0-ec4a-4703-8e75-b7202593d135")
-		(property "Reference" "#PWR046"
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 143.51 105.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 148.59 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb4f4602-ea45-4fc4-98d0-2a5b7f848406")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 90.17 160.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b02e517e-b67f-4c52-aecb-7009102c3c66")
-		(property "Reference" "#PWR040"
-			(at 96.52 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 93.98 160.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 90.17 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd65e5c3-f086-4475-9335-e0480d54aa38")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12760,84 +12856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 63.5 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c9a67a91-1cc2-4add-a999-1bda35ba5e51")
-		(property "Reference" "#PWR041"
-			(at 63.5 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 67.31 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 63.5 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e861c33-9fb2-4aa3-a12d-6af046981f10")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 186.69 96.52 0)
 		(mirror x)
@@ -13075,6 +13093,84 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "C_Y_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce37df0a-9b4e-4f17-ab3c-437118aa8a92")
+		(property "Reference" "#PWR038"
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "152a283e-27fc-4a08-9f43-4d7951ab8583")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13422,85 +13518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 101.6 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd5fa317-679e-4d6e-a8fc-6a91c30f3dbc")
-		(property "Reference" "#PWR042"
-			(at 107.95 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 105.41 109.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 101.6 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1c1f386-46d3-4552-8d93-4f192becb00f")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 31.75 154.94 270)
 		(unit 1)
@@ -13574,6 +13591,83 @@
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
 					(reference "C_out1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e500fadc-c16a-402d-8efb-e382b2976cc1")
+		(property "Reference" "#PWR045"
+			(at 128.27 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 172.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13b6833c-f90c-4c27-9a93-9df91634028e")
+		)
+		(instances
+			(project "chandra_queenofnight"
+				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14333,84 +14427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 199.39 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6a2994c-f6c7-4ce3-9deb-51c97df1e683")
-		(property "Reference" "#PWR044"
-			(at 199.39 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 199.39 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 199.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b9dc7dc-d97b-438a-93cd-622816a375b2")
-		)
-		(instances
-			(project "chandra_queenofnight"
-				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/43d0d107-b03e-4228-bd2c-42b72694ee16"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 138.43 170.18 270)
 		(mirror x)
@@ -14464,7 +14480,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, 1W, 1V"
+		(property "Description" "Resistor, 1W, 1V, I_sense=I_peak=1-2A"
 			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
