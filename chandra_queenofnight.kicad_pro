@@ -512,20 +512,32 @@
       {
         "clearance": 0.254,
         "name": "control_power",
-        "pcb_color": "rgb(255, 11, 11)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 1, 24)",
         "track_width": 0.508,
         "tuning_profile": "",
         "via_diameter": 0.8128,
         "via_drill": 0.4064
       },
       {
-        "clearance": 2.54,
-        "name": "prim_gnd",
-        "pcb_color": "rgb(130, 255, 2)",
-        "priority": 1,
+        "clearance": 0.254,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.524,
+        "tuning_profile": "",
+        "via_diameter": 1.27,
+        "via_drill": 0.6096
+      },
+      {
+        "clearance": 1.524,
+        "diff_pair_gap": 0.0,
+        "name": "prim_gnd",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(246, 255, 247)",
         "track_width": 1.778,
         "tuning_profile": "",
         "via_diameter": 1.27,
@@ -534,9 +546,9 @@
       {
         "clearance": 0.508,
         "name": "sec_gnd",
-        "pcb_color": "rgb(4, 255, 253)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(21, 255, 203)",
         "track_width": 1.27,
         "tuning_profile": "",
         "via_diameter": 1.016,
@@ -544,12 +556,12 @@
       },
       {
         "clearance": 0.254,
-        "line_style": 4,
-        "microvia_diameter": 0.6096,
+        "line_style": 0,
+        "microvia_diameter": 0.0,
         "name": "signal",
-        "pcb_color": "rgb(143, 0, 255)",
-        "priority": 3,
-        "schematic_color": "rgb(255, 54, 26)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(152, 48, 255)",
         "track_width": 0.254,
         "tuning_profile": "",
         "via_diameter": 0.6096,
@@ -564,11 +576,23 @@
     "netclass_patterns": [
       {
         "netclass": "signal",
-        "pattern": "/chandu_sheet_2/adc_I_a"
+        "pattern": "/chandu_sheet_2/CLK*"
       },
       {
         "netclass": "signal",
-        "pattern": "/chandu_sheet_2/adc_V_a"
+        "pattern": "/chandu_sheet_2/DT*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/SW*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/\\ON*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/adc_I_a"
       },
       {
         "netclass": "signal",
@@ -576,15 +600,71 @@
       },
       {
         "netclass": "signal",
+        "pattern": "/chandu_sheet_2/adc_V_a"
+      },
+      {
+        "netclass": "signal",
         "pattern": "/chandu_sheet_2/adc_V_b"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/led*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/scl_a"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/scl_b"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/sda_a"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/sda_b"
+      },
+      {
+        "netclass": "prim_gnd",
+        "pattern": "GND"
       },
       {
         "netclass": "sec_gnd",
         "pattern": "GND1"
       },
       {
-        "netclass": "prim_gnd",
-        "pattern": "GND"
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/vset*"
+      },
+      {
+        "netclass": "control_power",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/v_mon*"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/chandu_sheet_2/i_mon*"
+      },
+      {
+        "netclass": "control_power",
+        "pattern": "/chandu_sheet_2/ref*"
+      },
+      {
+        "netclass": "control_power",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "control_power",
+        "pattern": "3.3V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "12V"
       }
     ]
   },
@@ -926,7 +1006,7 @@
         "uuid": "fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af"
       }
     ],
-    "used_designators": "X3,#PWR59-68",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
