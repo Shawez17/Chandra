@@ -5471,12 +5471,6 @@
 		(uuid "1b5e42d2-86ab-458a-a131-405116c7717c")
 	)
 	(junction
-		(at 115.57 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "272e84fe-1db6-497f-a317-86c2eba50be3")
-	)
-	(junction
 		(at 186.69 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5531,12 +5525,6 @@
 		(uuid "68c2f97b-3ec6-4fbc-bd6e-d112e8d0cbc9")
 	)
 	(junction
-		(at 30.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71ac408e-5706-4d0b-a08d-7eeed2622302")
-	)
-	(junction
 		(at 143.51 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5577,12 +5565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84dd79bb-0b8d-421f-8943-d6ada8e90641")
-	)
-	(junction
-		(at 148.59 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d5cdfe5-d424-41eb-a05a-c4ca6ed03472")
 	)
 	(junction
 		(at 148.59 60.96)
@@ -5681,16 +5663,16 @@
 		(uuid "da55223a-7f1a-4202-9943-3647858e8ca9")
 	)
 	(junction
-		(at 120.65 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6472cdd-7464-4094-bfe2-89a071e93145")
-	)
-	(junction
 		(at 148.59 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9769b07-8352-49ed-81a1-1863c32014d1")
+	)
+	(junction
+		(at 115.57 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f99d2631-c0a8-4f60-b271-2925a4db97fd")
 	)
 	(junction
 		(at 232.41 83.82)
@@ -5875,6 +5857,16 @@
 			(type default)
 		)
 		(uuid "1327be66-8289-43fb-867c-b9f441f92796")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 143.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cb0e90-9ec9-4198-a297-3ce63229b8a5")
 	)
 	(wire
 		(pts
@@ -6138,16 +6130,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 148.59 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40acc7c5-fad7-479a-b677-009d47b70b93")
-	)
-	(wire
-		(pts
 			(xy 67.31 80.01) (xy 69.85 80.01)
 		)
 		(stroke
@@ -6225,6 +6207,16 @@
 			(type default)
 		)
 		(uuid "49855540-5b33-48f9-99b4-09f08c4192f6")
+	)
+	(wire
+		(pts
+			(xy 25.4 63.5) (xy 30.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9e7bd4-217e-48b0-8a41-775ecdbf1777")
 	)
 	(wire
 		(pts
@@ -6328,26 +6320,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 60.96) (xy 148.59 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be5d186-bf62-4625-b765-bcf876dee8cf")
-	)
-	(wire
-		(pts
-			(xy 138.43 124.46) (xy 138.43 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d29b7f4-2725-4e52-a8fb-784e95884e1a")
-	)
-	(wire
-		(pts
 			(xy 186.69 102.87) (xy 201.93 102.87)
 		)
 		(stroke
@@ -6398,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 115.57 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62abd27a-df41-475e-ba81-cdade3297a61")
-	)
-	(wire
-		(pts
 			(xy 40.64 137.16) (xy 40.64 138.43)
 		)
 		(stroke
@@ -6425,16 +6387,6 @@
 			(type default)
 		)
 		(uuid "67114be2-e910-4500-98c6-4f541d0f05d4")
-	)
-	(wire
-		(pts
-			(xy 120.65 119.38) (xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6791201d-2823-410f-b95a-0db294946925")
 	)
 	(wire
 		(pts
@@ -6548,6 +6500,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 119.38) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8e47ca-c045-4b68-8abe-bb0c3812b0f6")
+	)
+	(wire
+		(pts
 			(xy 67.31 160.02) (xy 68.58 160.02)
 		)
 		(stroke
@@ -6655,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "870dc78b-4b37-4f47-817f-25c94d217914")
+	)
+	(wire
+		(pts
+			(xy 62.23 72.39) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88616b25-7370-4d2e-b14e-6425b58f9a93")
 	)
 	(wire
 		(pts
@@ -6788,6 +6760,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 60.96) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c5d529-6794-4212-8980-a4d0de92ff11")
+	)
+	(wire
+		(pts
 			(xy 160.02 68.58) (xy 167.64 68.58)
 		)
 		(stroke
@@ -6868,16 +6850,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 66.04) (xy 148.59 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa245a81-61b9-45b9-8ab0-b26a9cac4dc4")
-	)
-	(wire
-		(pts
 			(xy 148.59 59.69) (xy 148.59 60.96)
 		)
 		(stroke
@@ -6908,6 +6880,26 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 134.62) (xy 30.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2c032e-3c8b-445b-8b9b-7852d1527447")
+	)
+	(wire
+		(pts
+			(xy 115.57 102.87) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff42e4c-69b9-40ed-87c1-0dc14abbf202")
+	)
+	(wire
+		(pts
 			(xy 15.24 71.12) (xy 19.05 71.12)
 		)
 		(stroke
@@ -6935,16 +6927,6 @@
 			(type default)
 		)
 		(uuid "b213a80f-7621-4104-a734-9548b8a0ecc9")
-	)
-	(wire
-		(pts
-			(xy 30.48 63.5) (xy 35.56 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b29cb9f3-fec2-4c83-a61a-70a64c044114")
 	)
 	(wire
 		(pts
@@ -7008,16 +6990,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 27.94 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf5f2a62-c214-4d2d-a9b9-fb8d1baa937f")
-	)
-	(wire
-		(pts
 			(xy 30.48 71.12) (xy 30.48 80.01)
 		)
 		(stroke
@@ -7045,16 +7017,6 @@
 			(type default)
 		)
 		(uuid "c64e9909-e23f-4dde-98f5-c183d695db6d")
-	)
-	(wire
-		(pts
-			(xy 120.65 124.46) (xy 115.57 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69ec398-1290-4cbc-bd11-815932a1e876")
 	)
 	(wire
 		(pts
@@ -7135,6 +7097,16 @@
 			(type default)
 		)
 		(uuid "d19f78c4-1e02-4b76-94e3-392aedacf11e")
+	)
+	(wire
+		(pts
+			(xy 186.69 102.87) (xy 115.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21e065e-ae60-4798-a03b-0cacb6d6055b")
 	)
 	(wire
 		(pts
@@ -7368,7 +7340,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 120.65 124.46)
+			(xy 115.57 124.46) (xy 129.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7436,6 +7408,16 @@
 		)
 		(uuid "ffbd348e-11c6-422a-9b4b-37dc37e8d69a")
 	)
+	(label "v_startup"
+		(at 148.59 67.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1475c50d-81c7-43ea-8f0d-f9119928d9c9")
+	)
 	(label "L"
 		(at 35.56 35.56 0)
 		(effects
@@ -7445,6 +7427,16 @@
 			(justify left bottom)
 		)
 		(uuid "150aa007-890b-4c80-96fa-2611df3df346")
+	)
+	(label "v_startup"
+		(at 127 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b74ed59-de51-4d45-af18-2850b3b64721")
 	)
 	(label "G"
 		(at 35.56 40.64 0)
@@ -7468,17 +7460,17 @@
 	)
 	(global_label "3.3V"
 		(shape output)
-		(at 273.05 66.04 180)
+		(at 271.78 73.66 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "03be8405-b734-4621-af5e-37d33c5c3240")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9524 66.04 0)
+			(at 271.78 66.5624 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7486,7 +7478,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7514,33 +7506,9 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 186.69 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a4634d6-94b4-454f-8d35-a291d51a6d37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.0762 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "12V"
 		(shape output)
-		(at 35.56 63.5 0)
+		(at 30.48 63.5 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7550,7 +7518,7 @@
 		)
 		(uuid "2ca585d3-5a8c-453b-be21-ad4975691883")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.0528 63.5 0)
+			(at 30.48 57.0072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7564,17 +7532,17 @@
 	)
 	(global_label "12V"
 		(shape output)
-		(at 273.05 68.58 180)
+		(at 269.24 73.66 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3861291a-5802-47d8-81e8-d274b39a06b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.5572 68.58 0)
+			(at 269.24 67.1672 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,7 +7550,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -7658,30 +7626,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape output)
-		(at 115.57 114.3 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78d4a567-77b2-4842-a113-f35f782adfc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 107.6862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "v_opto"
 		(shape output)
 		(at 73.66 129.54 180)
@@ -7708,7 +7652,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 256.54 66.04 0)
+		(at 256.54 66.04 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7718,7 +7662,7 @@
 		)
 		(uuid "d83bf755-c3b8-4e32-87ca-54ffb8f360f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.4629 66.04 0)
+			(at 256.54 59.5472 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,54 +7711,6 @@
 		(uuid "e7026784-ea6e-4785-8dda-6a86d2cd48f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.6061 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "V_startup"
-		(shape input)
-		(at 137.16 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f17e0b65-2725-4be6-b769-ce5174434621")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4059 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "V_startup"
-		(shape output)
-		(at 120.65 119.38 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f49f5051-dba6-4eb1-befe-bd71d14446da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 107.6259 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,6 +7863,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 63.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27b827ec-68e8-46ac-aa32-d1ef5361804c")
 		)
@@ -8036,6 +7943,17 @@
 			)
 		)
 		(property "Description" "Resistor, 0.25W"
+			(at 256.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 256.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8127,6 +8045,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 143.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2098316-3e44-4ee5-9277-829544c8df63")
 		)
@@ -8197,6 +8126,17 @@
 			)
 		)
 		(property "Description" "80-100V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 223.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 223.52 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8289,6 +8229,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 232.41 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4db3415b-b1b1-4f42-8a27-131b444988df")
 		)
@@ -8306,7 +8257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 60.96 180)
+		(at 104.14 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8314,10 +8265,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b03247e-5f19-4b3c-a39d-4ad798cc4df7")
 		(property "Reference" "#PWR043"
-			(at 104.14 54.61 0)
+			(at 104.14 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,13 +8278,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 55.88 0)
+			(at 98.044 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8384,7 +8335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 109.22 90)
+		(at 101.6 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8394,7 +8345,7 @@
 		(dnp no)
 		(uuid "1d849be5-f379-4d5e-a677-63ee190d6ec2")
 		(property "Reference" "#PWR039"
-			(at 107.95 109.22 0)
+			(at 101.6 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8405,7 +8356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 106.426 0)
+			(at 104.394 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8603,6 +8554,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "terminal_block/Metz_Connect"
+			(at 29.21 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1165f7f-4703-434a-af3a-9f6fa06f8539")
 		)
@@ -8623,7 +8585,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 27.94 63.5 0)
+		(at 25.4 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8633,7 +8595,7 @@
 		(dnp no)
 		(uuid "209cf4c5-7f0c-4882-a1a8-811f6cd52f87")
 		(property "Reference" "#FLG01"
-			(at 27.94 61.595 0)
+			(at 25.4 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +8606,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 26.162 68.326 90)
+			(at 23.622 68.326 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +8617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 63.5 0)
+			(at 25.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +8628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 63.5 0)
+			(at 25.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +8639,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 63.5 0)
+			(at 25.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,6 +8795,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, 35V"
+			(at 186.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9002,6 +8975,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
+			(at 143.51 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e90808f-2e58-45b5-acfe-231b234ffc24")
 		)
@@ -9096,6 +9080,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A, 500V"
+			(at 172.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 172.72 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9340,6 +9335,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 256.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e9cac60-eb71-44db-81c0-f3cd3c0f26f7")
 		)
@@ -9487,6 +9493,17 @@
 			)
 		)
 		(property "Description" "Resistor, 0.25W, 15V"
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9794,6 +9811,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 45.72 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e6a9451b-47e2-4a83-ab15-88d38a9fe196")
 		)
@@ -9968,6 +9996,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 63.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2aa98f8b-4cd5-4efe-8857-0880769ef926")
 		)
@@ -10047,6 +10086,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 83.82 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87b663c8-e1f0-4af2-adac-32fd55e15378")
 		)
@@ -10116,6 +10166,17 @@
 			)
 		)
 		(property "Description" "filmed capacitor, , 500V, >20W"
+			(at 62.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 62.23 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10208,6 +10269,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 167.64 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6304b05f-0e47-4d10-a69c-c23227912cb0")
 		)
@@ -10278,6 +10350,17 @@
 			)
 		)
 		(property "Description" "Resistor, 50V, 0.25W"
+			(at 125.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 125.73 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10394,6 +10477,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 224.79 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "feaa35ff-59d2-4602-a9e8-7e12f1b32b2b")
 		)
@@ -10487,6 +10581,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 63.5 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e1de03e-1c16-41d1-a395-683c1b2546bb")
 		)
@@ -10568,6 +10673,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 186.69 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7dc13823-2973-4407-af83-f50b9eada3ed")
 		)
@@ -10585,7 +10701,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 68.58 72.39 270)
+		(at 62.23 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10593,10 +10709,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "639b5441-910f-4bc7-b9fe-5687a04b4ed7")
 		(property "Reference" "#PWR063"
-			(at 62.23 72.39 0)
+			(at 62.23 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,18 +10722,18 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 64.77 72.3899 90)
+			(at 58.166 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 72.39 0)
+			(at 62.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 72.39 0)
+			(at 62.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,7 +10755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 68.58 72.39 0)
+			(at 62.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,6 +10852,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c7f2e89b-bfa9-4f6c-8a81-6d49894cf2bc")
 		)
@@ -10817,6 +10943,17 @@
 			)
 		)
 		(property "Description" "X2 capacitor, 500V, >20W"
+			(at 69.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 69.85 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10973,6 +11110,17 @@
 			)
 		)
 		(property "Description" "Inductor,2-3A rating"
+			(at 80.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "choke_THT"
 			(at 80.01 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11141,6 +11289,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "24699e72-d1e2-4302-9f9e-b0fb0b6608d4")
 		)
@@ -11236,7 +11395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 30.48 134.62 270)
+		(at 25.4 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11246,7 +11405,7 @@
 		(dnp no)
 		(uuid "88f68559-c031-4c71-8569-6aeb6937b1ea")
 		(property "Reference" "#PWR04"
-			(at 24.13 134.62 0)
+			(at 25.4 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11257,7 +11416,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 23.876 135.128 90)
+			(at 25.908 141.224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11267,7 +11426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 134.62 0)
+			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11278,7 +11437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 134.62 0)
+			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11289,7 +11448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 30.48 134.62 0)
+			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11367,6 +11526,17 @@
 			)
 		)
 		(property "Description" "Resistor, 500V, 1W"
+			(at 160.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11456,6 +11626,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 83.82 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ee84f18-e7ec-4da7-95f2-14bd1cb7972f")
 		)
@@ -11473,8 +11654,8 @@
 	)
 	(symbol
 		(lib_id "B2P-VH:B2P-VH")
-		(at 280.67 66.04 0)
-		(mirror y)
+		(at 271.78 81.28 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11484,7 +11665,7 @@
 		(dnp no)
 		(uuid "8f0c74fa-148e-499f-bb29-01c62cb15166")
 		(property "Reference" "X2"
-			(at 279.4 58.42 0)
+			(at 279.4 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11494,7 +11675,7 @@
 			)
 		)
 		(property "Value" "B2P-VH"
-			(at 279.4 60.96 0)
+			(at 276.86 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11504,7 +11685,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11515,7 +11696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11526,7 +11707,7 @@
 			)
 		)
 		(property "Description" "2 Position Adapter Connector Receptacle, Female Sockets To Receptacle, Female Sockets 0.156 (3.96mm)"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11537,7 +11718,7 @@
 			)
 		)
 		(property "MF" "JST Sales America Inc."
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11549,7 +11730,7 @@
 			)
 		)
 		(property "Description_1" "2 Position Adapter Connector Receptacle, Female Sockets To Receptacle, Female Sockets 0.156 (3.96mm)"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +11742,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11573,7 +11754,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11585,7 +11766,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2P-VH/JST/view-part/?ref=snap"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11597,7 +11778,7 @@
 			)
 		)
 		(property "MP" "B2P-VH"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11609,7 +11790,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11621,7 +11802,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/B2P-VH/JST/view-part/?ref=eda"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11633,7 +11814,18 @@
 			)
 		)
 		(property "Distributer" "https://robu.in/product/b2p-vhlfsn-jst-1x2p-2p-vh-tin-2-25%e2%84%8385%e2%84%83-10a-1-3-96mm-brass-direct-insert-pluginp3-96mm-wire-to-board-connector-rohs/"
-			(at 280.67 66.04 0)
+			(at 271.78 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11712,6 +11904,17 @@
 			)
 		)
 		(property "Description" "ceramic capacitor, 15V, storing volts"
+			(at 34.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 34.29 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11881,6 +12084,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 22.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2bd87cd1-6e87-43bd-b1bf-a11ca7c4679c")
 		)
@@ -12040,6 +12254,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 86.36 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f3fccbcd-2822-4450-979a-6c8fc00e54be")
 		)
@@ -12110,6 +12335,17 @@
 			)
 		)
 		(property "Description" "starup voltage flows through before aux winding start supplying it, HV resistor, 0.5W, 310Volts"
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 148.59 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12192,6 +12428,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, 35V"
+			(at 133.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 133.35 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12351,6 +12598,17 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, 25V"
+			(at 93.98 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12521,6 +12779,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 203.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b9ac0fb5-0c92-4d73-8a3d-fa7bcc767990")
 		)
@@ -12590,6 +12859,17 @@
 			)
 		)
 		(property "Description" "Resistor, 0.5W"
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 242.57 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12680,6 +12960,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 72.39 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "148fdb45-4807-49ab-bd36-c525c1e6e4c5")
 		)
@@ -12750,6 +13041,17 @@
 			)
 		)
 		(property "Description" "resistor, 1W, 40V"
+			(at 186.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 186.69 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12832,6 +13134,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, 400V"
+			(at 111.76 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 111.76 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13001,6 +13314,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 54.61 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2812180e-6bbc-4077-acbb-1db985e84201")
 		)
@@ -13159,6 +13483,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 148.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8bb3d4f-f60f-4286-9ce9-a97dae7683e6")
 		)
@@ -13240,6 +13575,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 35.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cdbb76e7-2290-4d3b-8c0d-b3cfba1cd5c3")
 		)
@@ -13310,6 +13656,17 @@
 			)
 		)
 		(property "Description" "starup voltage flows through before aux winding start supplying it, HV resistor,0.5W, 310V"
+			(at 148.59 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13492,6 +13849,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 207.01 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "cb2012c4-8bce-43b4-80ca-47f8e4c5e414")
 		)
@@ -13577,6 +13945,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 31.75 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eedb4fc7-2f45-49d7-b811-67cf1320044e")
 		)
@@ -13594,7 +13973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 170.18 270)
+		(at 134.62 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13604,7 +13983,7 @@
 		(dnp no)
 		(uuid "e500fadc-c16a-402d-8efb-e382b2976cc1")
 		(property "Reference" "#PWR045"
-			(at 128.27 170.18 0)
+			(at 134.62 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13615,7 +13994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 172.974 0)
+			(at 131.826 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13724,6 +14103,17 @@
 			)
 		)
 		(property "Description" "to ensure that gate voltage remains 0 when mosfte is OFF"
+			(at 133.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 133.35 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14241,6 +14631,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 72.39 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aec4866a-bc85-4799-b0c4-f3dab789ca13")
 		)
@@ -14407,6 +14808,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 87.63 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abcb0215-eb2c-451a-9861-e98d2465c5c0")
 		)
@@ -14487,6 +14899,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 138.43 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10e85f3c-b5c7-4d72-9afe-801f6015e964")
 		)
@@ -14504,7 +14927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 120.65 180)
+		(at 143.51 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14515,7 +14938,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe23b7be-997e-44e5-8f24-49e7fa218b1f")
 		(property "Reference" "#PWR033"
-			(at 138.43 114.3 0)
+			(at 143.51 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14526,17 +14949,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 115.57 0)
+			(at 146.05 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 120.65 0)
+			(at 143.51 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14547,7 +14971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 120.65 0)
+			(at 143.51 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14558,7 +14982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 120.65 0)
+			(at 143.51 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -532,7 +532,7 @@
         "via_drill": 0.6096
       },
       {
-        "clearance": 1.524,
+        "clearance": 0.508,
         "diff_pair_gap": 0.0,
         "name": "prim_gnd",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -544,7 +544,7 @@
         "via_drill": 0.6096
       },
       {
-        "clearance": 0.508,
+        "clearance": 0.254,
         "name": "sec_gnd",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -665,6 +665,10 @@
       {
         "netclass": "power",
         "pattern": "12V"
+      },
+      {
+        "netclass": "control_power",
+        "pattern": "/chandu_sheet_2/3v3_esp32"
       }
     ]
   },
@@ -1006,7 +1010,7 @@
         "uuid": "fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U12,X3-6",
     "variants": []
   },
   "sheets": [
