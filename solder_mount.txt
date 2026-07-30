@@ -1,0 +1,7 @@
+1. Repalce jugaad element by decent element(resistors)
+2. find better way to show lead on top of pcb for measuring purpose.
+
+
+
+
+

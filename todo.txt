@@ -1,0 +1,11 @@
+1. I2C Channel/traces talks (both DAC and oled screen) with esp32 dev board
+2. TL431 drops voltage on optocoupler led when output voltage >12.4V.
+3. Transformer 
+ 
+
+a. check states SCL and SDA using DSO
+b. continuity check on esp32 pins
+
+
+
+
