@@ -1,0 +1,13 @@
+* =========================================================
+* B57153S0100M000
+* TDK/EPCOS S153/10 M
+* Simplified simulation model
+*
+* R25 nominal = 10 ohm
+* This model represents the COLD NTC resistance.
+* It does NOT model self-heating.
+* =========================================================
+
+.SUBCKT B57153S0100M000 1 2
+RNTC 1 2 10
+.ENDS B57153S0100M000

@@ -9260,7 +9260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd8470e-9c93-41f4-9494-2b33c7214929")
-		(property "Reference" "R12??"
+		(property "Reference" "R12?1"
 			(at 207.01 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9322,7 +9322,7 @@
 		(instances
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/d021fc71-9d18-4a27-819f-074c7472d77d"
-					(reference "R12??")
+					(reference "R12?1")
 					(unit 1)
 				)
 			)
@@ -10432,7 +10432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f8d008e-e3e9-4495-a1a4-9883c564cc82")
-		(property "Reference" "R11??"
+		(property "Reference" "R11?1"
 			(at 194.31 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +10494,7 @@
 		(instances
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/d021fc71-9d18-4a27-819f-074c7472d77d"
-					(reference "R11??")
+					(reference "R11?1")
 					(unit 1)
 				)
 			)
@@ -10512,7 +10512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a242a1b9-7bfc-44f7-a099-487249f939b9")
-		(property "Reference" "C_decoup_12V2??"
+		(property "Reference" "C_decoup_12V2?1"
 			(at 227.33 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10576,7 +10576,7 @@
 		(instances
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/d021fc71-9d18-4a27-819f-074c7472d77d"
-					(reference "C_decoup_12V2??")
+					(reference "C_decoup_12V2?1")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afa378c0-cca8-4092-8f33-e4870599d257")
-		(property "Reference" "C_decoup_3V2??"
+		(property "Reference" "C_decoup_3V2?1"
 			(at 66.548 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,7 +10736,7 @@
 		(instances
 			(project "chandra_queenofnight"
 				(path "/fe3f1796-d4c1-46ec-bdb5-a29f35c8d4af/d021fc71-9d18-4a27-819f-074c7472d77d"
-					(reference "C_decoup_3V2??")
+					(reference "C_decoup_3V2?1")
 					(unit 1)
 				)
 			)
